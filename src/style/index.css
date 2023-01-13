@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Шапка сайта*/
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #0f132a;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f132a;
+    width: 50%;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation span{
+    margin: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.site-name span{
+    font-size: 32px;
+    font-weight: 600;
+    user-select: none;
+    color: #ccc9ff;
+}
+/*Основной контент*/
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #b7b7b7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 50%;
+}
+hr{
+    margin: 30px;
+    height: 2px;
+    background-color: black;
+    border: 0;
+}
